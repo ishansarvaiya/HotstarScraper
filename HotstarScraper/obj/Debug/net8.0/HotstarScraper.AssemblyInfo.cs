@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotstarScraper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2022693b8d6f6f3654423396a1a1227861d3889d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+469ea1d5be3c8844737a537a3fc67e1dfd61871b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotstarScraper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotstarScraper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
