@@ -28,13 +28,12 @@ internal class Program
         }
 
         Log.Logger = new LoggerConfiguration()
-            .ReadFrom.Configuration(_configuration) // This line already configures the console sink from appsettings.json
+            .ReadFrom.Configuration(_configuration)
             .WriteTo.File(
                 Path.Combine(logDirectory, "hotstar-scraper-.log"),
                 rollingInterval: RollingInterval.Day,
                 outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
             )
-            // Removed: .WriteTo.Console() 
             .CreateLogger();
 
         Log.Information("Hotstar Scraper application starting up.");

@@ -33,11 +33,11 @@ namespace HotstarScraper.Services
                     if (_dbContext.Entry(movie).State == EntityState.Added)
                     {
                         await _dbContext.SaveChangesAsync();
-                        _logger.Information("Added new movie: {Title}", movie.Title, movie.Id);
+                        _logger.Information("Added new movie: {Title}", movie.Title);
                     }
                     else
                     {
-                        _logger.Information("Updating existing movie: {Title}", movie.Title, movie.Id);
+                        _logger.Information("Updating existing movie: {Title}", movie.Title);
                     }
 
                     await HandleGenresAsync(movie, movieData.Genres, genreDict);
@@ -107,11 +107,11 @@ namespace HotstarScraper.Services
                     if (_dbContext.Entry(show).State == EntityState.Added)
                     {
                         await _dbContext.SaveChangesAsync();
-                        _logger.Information("Added new show: {Title}", show.Title, show.Id);
+                        _logger.Information("Added new show: {Title}", show.Title);
                     }
                     else
                     {
-                        _logger.Information("Updating existing show: {Title}", show.Title, show.Id);
+                        _logger.Information("Updating existing show: {Title}", show.Title);
                     }
 
                     await HandleShowGenresAsync(show, showData.Genres, genreDict);
