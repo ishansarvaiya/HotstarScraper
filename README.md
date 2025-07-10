@@ -3,6 +3,8 @@
 
 This project is a C# application designed to scrape movie and show data from Hotstar and store it in a SQL Server database.
 
+## Screenshots
+
 ## Run Locally
 
 Clone the project
