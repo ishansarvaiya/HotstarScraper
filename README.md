@@ -18,7 +18,7 @@ git clone https://github.com/ishansarvaiya/HotstarScraper.git
 Go to the project directory
 
 ```bash
-cd HotstarScraper
+cd HotstarScraper/HotstarScraper
 ```
 
 Install dependencies
