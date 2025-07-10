@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration;
 using OpenQA.Selenium.Chrome;
 using Serilog;
 using Serilog.Debugging;
-using System.IO;
 
 internal class Program
 {

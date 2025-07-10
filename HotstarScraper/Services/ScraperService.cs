@@ -379,7 +379,7 @@ namespace HotstarScraper.Services
 
                 var genreScript = @"
                     var genreContainer = document.querySelector('div[data-testid=""tagFlipperEnriched""]') ||
-                                         document.querySelector('div[data-testid=""tags-container""]'); // Added fallback for tags-container
+                                         document.querySelector('div[data-testid=""tags-container""]');
                     if (genreContainer) {
                         var spans = genreContainer.querySelectorAll('span');
                         var genres = Array.from(spans).map(s => s.textContent.trim()).filter(t => t);
