@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HotstarScraper": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
